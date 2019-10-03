@@ -1,78 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>第71回　理大祭</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/favicon.ico " type="image/vnd.microsoft.icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon.ico "
+      type="image/vnd.microsoft.icon"
+    />
     <link rel="icon" href="./img/favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148081213-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148081213-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-148081213-1');
+      gtag("config", "UA-148081213-1");
     </script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- <div id="progress-box">
         <div id="progress-bar">
         </div>
     </div> -->
     <header id="pageHeader">
-        <div id="consolidate">
-            <div class="comment" id="comment">
-                Welcome to 71st Ridaisai!
-            </div>
-            <div class="comment">
-                -2019 11/23[Sat],24[Sun]-
-            </div>
-            <div class="comment">
-                coming soon!
-            </div>
+      <div id="consolidate">
+        <div class="comment" id="comment">
+          Welcome to 71st Ridaisai!
         </div>
+        <div class="comment">
+          - 2019 11/23[Sat],24[Sun] -
+        </div>
+        <div class="comment">
+          coming soon!
+        </div>
+      </div>
     </header>
     <main id="pageMain">
-        <!-- <div class="button" id="lasyYear">
+      <!-- <div class="button" id="lasyYear">
             <a href="http://www.kagu.ridaisai.com/2018/general/index.html">
                 <img src="./img/70ridaisai.jpg" alt="">
                 <p>第70回理大祭の様子</p>
             </a>
         </div> -->
-        <div class="button" id="ThisYear">
-            <a href="http://www.kagu.ridaisai.com/2019/general/index.html">
-                <img src="./img/70ridaisai.jpg" alt="">
-                <p>第71回理大祭</p>
-            </a>
-        </div>
-        <div class="button" id="dantai">
-            <a href="http://www.kagu.ridaisai.com/dantai/index.html">
-                <img src="./img/hanabi.jpg" alt="">
-                <p>企画参加団体向けページ</p>
-            </a>
-        </div>
+      <div class="button" id="ThisYear">
+        <a href="http://www.kagu.ridaisai.com/2019/general/index.html">
+          <img src="./img/70ridaisai.jpg" alt="" />
+          <p>第71回理大祭</p>
+        </a>
+      </div>
+      <div class="button" id="dantai">
+        <a href="http://www.kagu.ridaisai.com/dantai/index.html">
+          <img src="./img/hanabi.jpg" alt="" />
+          <p>企画参加団体向けページ</p>
+        </a>
+      </div>
     </main>
     <footer id="pageFooter">
-        <p>神楽坂地区理大祭実行委員会</p>
-        <address>03-3235-8977</address>
-        <address>info@kagu.ridaisai.com</address>
+      <p>神楽坂地区理大祭実行委員会</p>
+      <address>03-3235-8977</address>
+      <address>info@kagu.ridaisai.com</address>
     </footer>
 
     <script src="script.js"></script>
     <script src="./shuffle-text.js"></script>
     <script>
-        var text = new ShuffleText(document.querySelector('#comment'));
-        text.start();
+      var text = new ShuffleText(document.querySelector("#comment"));
+      text.start();
     </script>
-</body>
-
+  </body>
 </html>
