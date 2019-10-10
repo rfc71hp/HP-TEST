@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* --------------------------------------------------
+    COMMON
+-------------------------------------------------- */
+html {
+  overflow-x: hidden;
+}
+body,
+p {
+  line-height: 1.8rem !important;
+}
+.border {
+  border-width: 2px !important;
+}
+.bg-lightblue {
+  background: #dedede;
+}
+
+/* 半円背景各種
+-------------------------------------------------- */
+/* 半月（背景白） */
+.half-white:after {
+  background-color: #dedede;
+}
+/* 半月（背景薄青） */
+.half-lightblue:after {
+  background: #dedede;
+}
+/* 半月（背景緑） */
+.half-info:after {
+  background: #dedede;
+}
+/* 共通 */
+.half {
+  background-color: #dedede;
+  width: 120%;
+  height: 150px;
+  border-top-left-radius: 50% 120px;
+  border-top-right-radius: 50% 120px;
+  position: absolute;
+  top: 0;
+  left: -10%;
+}
+.half:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.bg-c {
+  background-color: #dedede;
+}
+
+/* 見出し青丸
+-------------------------------------------------- */
+.dot {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.dot:before,
+.dot:after {
+  font-family: "Font Awesome 5 Free"; /*忘れずに*/
+  content: "\f111"; /*アイコンのユニコード*/
+  font-size: 1.2rem; /*サイズ*/
+  color: #a1ceff;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+/* --------------------------------------------------
+    header
+-------------------------------------------------- */
+header .container-fluid {
+  height: 100vh;
+  width: 100%;
+  background: url(../img/image-top2.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+  z-index: 1;
+}
+.container-fluid::before {
+  position: absolute;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  content: "";
+  clear: both;
+  display: block;
+  background: url("../img/masks.png") center center repeat;
+  background-size: auto auto;
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  -ms-background-size: 3px 3px;
+  -o-background-size: 3px 3px;
+  background-size: 3px 3px;
+  z-index: 2;
+}
+.catch-copy {
+  z-index: 10;
+  position: relative;
+}
+/*    グローバルナビ
+-------------------------------------------------- */
+.breadcrumb {
+  background: transparent;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #fff;
+}
+.mod-gnav {
+  z-index: 3;
+}
+/* --------------------------------------------------
+    トップページ
+-------------------------------------------------- */
+.balloon {
+  width: 130px;
+  height: 130px;
+  top: -50px;
+  z-index: 10;
+  left: -20px;
+  font-size: 15px;
+}
+.balloon-s {
+  width: 110px;
+  height: 110px;
+  top: -20px;
+  z-index: 10;
+  left: -20px;
+  font-size: 14px;
+}
+.balloon:before,
+.balloon-s:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  margin-top: -15px;
+  border: 10px solid transparent;
+  border-left: 30px solid #17a2b8;
+  z-index: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+table tr:last-child {
+  border-bottom: 1px solid #dee2e6;
+}
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+table tr:nth-child(odd) {
+  background-color: #e4e9ef;
+}
+/* --------------------------------------------------
+    サンプルページ
+-------------------------------------------------- */
+.season {
+  width: 70px;
+  height: 70px;
+  left: 10px;
+  padding: 0.34em;
+}
+.season div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 2.4px dotted #fff;
+}
+.title {
+  border-bottom: 2px solid #17a2b8;
+}
+.stripe {
+  background: repeating-linear-gradient(
+    90deg,
+    #fff 0,
+    #fff 40%,
+    #17a2b8 40%,
+    #17a2b8 60%,
+    #fff 60%,
+    #fff 70%
+  );
+}
+
+/* --------------------------------------------------
+    レスポンシブル
+-------------------------------------------------- */
+@media screen and (max-width: 767.98px) {
+  h2 {
+    font-size: 1.2rem !important;
+  }
+  .logo {
+    width: 75%;
+  }
+  .balloon,
+  .balloon-s {
+    width: 120px;
+    height: 120px;
+    top: -60px;
+    left: 4px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .catch-copy {
+    font-size: 5rem;
+    margin: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+  }
+  #Navbar ul li {
+    display: table;
+    margin-right: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  #Navbar ul li:last-child {
+    margin-right: 0;
+  }
+  #Navbar ul li a {
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.36rem;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  #Navbar ul li a {
+    font-weight: bold;
+    color: #fff !important;
+  }
+  .catch-copy {
+    margin: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+    font-size: 3rem !important;
+  }
+}
