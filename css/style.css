@@ -13,26 +13,35 @@ p {
   border-width: 2px !important;
 }
 .bg-lightblue {
-  background: #dedede;
+  background: #e7e7e7;
 }
-
+.division {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 /* 半円背景各種
 -------------------------------------------------- */
+.bg-c-w {
+  background: #e7e7e7;
+}
+.bg-rikamaru {
+  background: #f7b32f !important;
+}
 /* 半月（背景白） */
 .half-white:after {
-  background-color: #dedede;
+  background-color: #e7e7e7;
 }
 /* 半月（背景薄青） */
 .half-lightblue:after {
-  background: #dedede;
+  background: #e7e7e7;
 }
 /* 半月（背景緑） */
 .half-info:after {
-  background: #dedede;
+  background: #e7e7e7;
 }
 /* 共通 */
 .half {
-  background-color: #dedede;
+  background-color: #e7e7e7;
   width: 120%;
   height: 150px;
   border-top-left-radius: 50% 120px;
@@ -51,7 +60,7 @@ p {
   z-index: -1;
 }
 .bg-c {
-  background-color: #dedede;
+  background-color: #17a2b8;
 }
 
 /* 見出し青丸
@@ -75,7 +84,7 @@ p {
 header .container-fluid {
   height: 100vh;
   width: 100%;
-  background: url(../img/image-top2.jpg);
+  background: url(../img/main.jpg);
   background-size: cover;
   background-position: 50% 60%;
   z-index: 1;
@@ -148,13 +157,13 @@ header .container-fluid {
   transform: rotate(45deg);
 }
 
-table tr:last-child {
+.table tr:last-child {
   border-bottom: 1px solid #dee2e6;
 }
-table tr:nth-child(even) {
+.table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
-table tr:nth-child(odd) {
+.table tr:nth-child(odd) {
   background-color: #e4e9ef;
 }
 /* --------------------------------------------------
@@ -191,6 +200,9 @@ table tr:nth-child(odd) {
     レスポンシブル
 -------------------------------------------------- */
 @media screen and (max-width: 767.98px) {
+  br {
+    display: none;
+  }
   h2 {
     font-size: 1.2rem !important;
   }
