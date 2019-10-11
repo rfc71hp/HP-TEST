@@ -204,7 +204,7 @@ header .container-fluid {
   body {
     overflow-x: hidden;
   }
-  br {
+  .pc-br {
     display: none;
   }
   h2 {
