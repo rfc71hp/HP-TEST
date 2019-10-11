@@ -210,6 +210,9 @@ header .container-fluid {
   h2 {
     font-size: 1.2rem !important;
   }
+  .pb-5 {
+    padding-bottom: 6rem !important;
+  }
   .logo {
     width: 75%;
   }
@@ -220,6 +223,14 @@ header .container-fluid {
     top: -60px;
     left: 4px;
     font-size: 14px;
+  }
+  header .container-fluid {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/main_sp.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    z-index: 1;
   }
 }
 @media screen and (min-width: 576px) {
@@ -254,7 +265,6 @@ header .container-fluid {
 @media screen and (max-width: 575.98px) {
   #Navbar ul li a {
     font-weight: bold;
-    color: #fff !important;
   }
   .catch-copy {
     margin: 0 10px;
