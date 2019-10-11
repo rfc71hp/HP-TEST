@@ -8,6 +8,7 @@ html {
 body,
 p {
   line-height: 1.8rem !important;
+  text-decoration: none;
 }
 .border {
   border-width: 2px !important;
@@ -18,6 +19,13 @@ p {
 .division {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+a {
+  color: unset;
+}
+a:hover {
+  text-decoration: none;
+  color: #21b4ca;
 }
 /* 半円背景各種
 -------------------------------------------------- */
@@ -60,7 +68,7 @@ p {
   z-index: -1;
 }
 .bg-c {
-  background-color: #17a2b8;
+  background-color: #21b4ca;
 }
 
 /* 見出し青丸
@@ -74,7 +82,7 @@ p {
   font-family: "Font Awesome 5 Free"; /*忘れずに*/
   content: "\f111"; /*アイコンのユニコード*/
   font-size: 1.2rem; /*サイズ*/
-  color: #a1ceff;
+  color: #21b4ca;
   padding: 0 10px;
   vertical-align: middle;
 }
@@ -150,7 +158,7 @@ header .container-fluid {
   right: -5px;
   margin-top: -15px;
   border: 10px solid transparent;
-  border-left: 30px solid #17a2b8;
+  border-left: 30px solid #21b4ca;
   z-index: 0;
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -182,15 +190,15 @@ header .container-fluid {
   border: 2.4px dotted #fff;
 }
 .title {
-  border-bottom: 2px solid #17a2b8;
+  border-bottom: 2px solid #21b4ca;
 }
 .stripe {
   background: repeating-linear-gradient(
     90deg,
     #fff 0,
     #fff 40%,
-    #17a2b8 40%,
-    #17a2b8 60%,
+    #21b4ca 40%,
+    #21b4ca 60%,
     #fff 60%,
     #fff 70%
   );
