@@ -200,6 +200,10 @@ header .container-fluid {
     レスポンシブル
 -------------------------------------------------- */
 @media screen and (max-width: 767.98px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   br {
     display: none;
   }
