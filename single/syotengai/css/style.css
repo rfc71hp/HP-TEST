@@ -47,3 +47,11 @@ a.reqTypeBtn:hover {
 .contents:not(#careerSe) {
   display: none;
 }
+
+table{
+  padding: 10px;   
+}
+td,tr{
+  border: solid 1px;
+  border-collapse:  collapse; 
+}
