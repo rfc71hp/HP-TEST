@@ -71,7 +71,7 @@ a:hover {
   background-color: #21b4ca;
 }
 
-/* 見出し青丸
+/* dot
 -------------------------------------------------- */
 .dot {
   padding-left: 1.5rem !important;
@@ -119,7 +119,7 @@ header .container-fluid {
   z-index: 10;
   position: relative;
 }
-/*    グローバルナビ
+/*    gnav
 -------------------------------------------------- */
 .breadcrumb {
   background: transparent;
@@ -132,7 +132,7 @@ header .container-fluid {
   z-index: 3;
 }
 /* --------------------------------------------------
-    トップページ
+    top
 -------------------------------------------------- */
 .balloon {
   width: 130px;
@@ -175,7 +175,7 @@ header .container-fluid {
   background-color: #e4e9ef;
 }
 /* --------------------------------------------------
-    サンプルページ
+    single common
 -------------------------------------------------- */
 .season {
   width: 70px;
