@@ -176,6 +176,16 @@ a.tabButton:hover {
 }
 
 @media screen and (max-width: 767.98px) {
+  .panels section h1 {
+    font-size: 1.5rem;
+  }
+  .headerListContents {
+    width: 100px;
+    margin-right: 5px;
+  }
+  a.tabButton {
+    font-size: 0.9rem;
+  }
   .line-bc {
     max-width: 450px;
   }
