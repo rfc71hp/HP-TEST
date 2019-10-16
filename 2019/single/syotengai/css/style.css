@@ -74,16 +74,30 @@ a.tabButton:hover {
   margin-bottom: 3rem;
 }
 
+#kutsurogi {
+  display: none;
+}
+#isuzu {
+  display: none;
+}
+#kuriko {
+  display: none;
+}
+#baika {
+  display: none;
+}
+#ryu {
+  display: none;
+}
+
 /* sns風 */
 
 .line-bc {
   padding: 20px 10px;
-  max-width: 450px;
+  max-width: 800px;
   margin: 15px auto;
   text-align: right;
   font-size: 14px;
-  background: #7da4cd;
-
 }
 
 /*以下、②左側のコメント*/
@@ -99,7 +113,7 @@ a.tabButton:hover {
   width: 40px;
 }
 
-.balloon6 .faceicon img{
+.balloon6 .faceicon img {
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -110,7 +124,7 @@ a.tabButton:hover {
 }
 .says {
   display: inline-block;
-  position: relative; 
+  position: relative;
   margin: 0 0 0 50px;
   padding: 10px;
   max-width: 250px;
@@ -122,7 +136,7 @@ a.tabButton:hover {
   content: "";
   display: inline-block;
   position: absolute;
-  top: 3px; 
+  top: 3px;
   left: -19px;
   border: 8px solid transparent;
   border-right: 18px solid #edf1ee;
@@ -140,19 +154,20 @@ a.tabButton:hover {
 }
 .mycomment p {
   display: inline-block;
-  position: relative; 
+  position: relative;
   margin: 0 10px 0 0;
   padding: 8px;
   max-width: 250px;
   border-radius: 12px;
   background: #30e852;
-  font-size: 15px:
+  font-size: 15px;
+  text-align: left;
 }
 
 .mycomment p:after {
   content: "";
   position: absolute;
-  top: 3px; 
+  top: 3px;
   right: -19px;
   border: 8px solid transparent;
   border-left: 18px solid #30e852;
@@ -160,4 +175,9 @@ a.tabButton:hover {
   transform: rotate(-35deg);
 }
 
+@media screen and (max-width: 767.98px) {
+  .line-bc {
+    max-width: 450px;
+  }
+}
 /* sns風 */
