@@ -89,6 +89,15 @@ a.tabButton:hover {
 #ryu {
   display: none;
 }
+.th-top-justify th {
+  vertical-align: top;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+}
+.th-top-justify tr td {
+  text-align: left;
+}
 
 /* sns風 */
 
@@ -101,6 +110,15 @@ a.tabButton:hover {
 }
 
 /*以下、②左側のコメント*/
+.pull-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faceiconNameWrapper {
+  margin: 0 auto;
+}
+
 .balloon6 {
   width: 100%;
   margin: 10px 0;
@@ -111,6 +129,10 @@ a.tabButton:hover {
   float: left;
   margin-right: -50px;
   width: 40px;
+}
+.balloon6 .faceicon-big {
+  width: 150px;
+  margin-right: 0px;
 }
 
 .balloon6 .faceicon img {
@@ -183,11 +205,17 @@ a.tabButton:hover {
     width: 100px;
     margin-right: 5px;
   }
+  .balloon6 .faceicon-big {
+    width: 120px;
+  }
   a.tabButton {
     font-size: 0.9rem;
   }
   .line-bc {
     max-width: 450px;
+  }
+  table {
+    margin: 0 auto;
   }
 }
 /* sns風 */
