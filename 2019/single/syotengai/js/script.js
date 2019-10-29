@@ -3,7 +3,6 @@ let $container = $(".container"),
   $headerListContents = $(".headerListContents"),
   $panels = $(".panels");
 $(function() {
-  // console.log($headerListContents)
   $headerListContents.on("click", function(e) {
     e.preventDefault();
 
@@ -22,7 +21,5 @@ $(function() {
         .stop(true)
         .fadeIn();
     });
-
-    console.log(href);
   });
 });
