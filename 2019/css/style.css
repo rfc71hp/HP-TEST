@@ -174,6 +174,16 @@ header .container-fluid {
 .table tr:nth-child(odd) {
   background-color: #e4e9ef;
 }
+#PR img {
+  max-width: 500px;
+  margin-right: 10px;
+}
+#PR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /* --------------------------------------------------
     single common
 -------------------------------------------------- */
@@ -239,6 +249,10 @@ header .container-fluid {
     background-size: cover;
     background-position: 50% 60%;
     z-index: 1;
+  }
+
+  #PR img {
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 576px) {

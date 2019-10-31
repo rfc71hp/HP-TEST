@@ -43,6 +43,12 @@
 .panels section p {
   margin: 0;
 }
+.panelContents a {
+  color: #21b4ca !important;
+}
+.panelContents a:hover {
+  color: rgba(33, 180, 202, 0.6) !important;
+}
 a.tabButton {
   height: 70px;
   text-align: center;
