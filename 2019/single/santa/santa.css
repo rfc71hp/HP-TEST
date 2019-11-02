@@ -1,0 +1,31 @@
+table {
+  display: block;
+}
+.sp {
+  display: none;
+}
+.santa-img {
+  margin-top: 2rem;
+}
+.santa-title {
+  font-weight: bold;
+}
+.santa-sent {
+  margin-bottom: 2rem;
+}
+.blue {
+  color: #21b4ca;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .santa-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
