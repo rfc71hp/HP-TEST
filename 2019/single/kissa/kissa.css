@@ -1,0 +1,31 @@
+table {
+  display: block;
+}
+.sp {
+  display: none;
+}
+.kissa-img {
+  margin-top: 2rem;
+}
+.kissa-title {
+  font-weight: bold;
+}
+.kissa-sent {
+  margin-bottom: 2rem;
+}
+.blue {
+  color: #21b4ca;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .kissa-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
