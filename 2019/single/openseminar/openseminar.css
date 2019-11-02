@@ -1,0 +1,31 @@
+table {
+  display: block;
+}
+.sp {
+  display: none;
+}
+.openseminar-img {
+  margin-top: 2rem;
+}
+.openseminar-title {
+  font-weight: bold;
+}
+.openseminar-sent {
+  margin-bottom: 2rem;
+}
+.blue {
+  color: #21b4ca;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .openseminar-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
