@@ -1,0 +1,12 @@
+.profile-title{
+    display: inline-block;
+    margin-right: 2em;
+    font-weight: bold;
+    color: pink;
+}
+@media screen and (max-width: 767.98px){
+    .profile-title{
+        width: 11.3em;
+        margin-right: .5em;
+    }
+}
