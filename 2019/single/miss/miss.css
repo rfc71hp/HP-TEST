@@ -2,7 +2,10 @@
     display: inline-block;
     margin-right: 2em;
     font-weight: bold;
-    color: pink;
+    color: #ffb2ff;
+}
+.profile ul li{
+    display: flex;
 }
 @media screen and (max-width: 767.98px){
     .profile-title{
