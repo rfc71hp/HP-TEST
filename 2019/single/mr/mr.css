@@ -2,7 +2,7 @@
     display: inline-block;
     margin-right: 2em;
     font-weight: bold;
-    color: blue;
+    color: #b2d8ff;
 }
 .profile ul li{
     display: flex;
@@ -13,9 +13,14 @@
         margin-right: .5em;
     }
 }
-/* .col-6{
-    height: 50%;
-} */
+
+.no1-l ,.no2-l ,.no3-l ,.no4-l ,.no5-l ,.no6-l {
+    padding-right: 2.2%;
+}
+.no1-r ,.no2-r ,.no3-r ,.no4-r ,.no5-r ,.no6-r {
+    padding-left: 2.2%;
+}
+
 img{
     width: 100%;
     margin-bottom: 10%;
@@ -26,11 +31,16 @@ img{
 .no3-r img{
     margin-bottom: 95.3%;
 }
+.no4-r img{
+    margin-bottom: 13.4%;
+}
+.no5-l img{
+    margin-bottom: 68.3%;
+}
+.no6-r img{
+    margin-bottom: 13.4%;
+}
 
 img:last-child{
     margin-bottom: 0;
 }
-
-/* .col-6{
-    padding: 0;
-} */
