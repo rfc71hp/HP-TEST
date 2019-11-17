@@ -7,9 +7,20 @@
 .profile ul li{
     display: flex;
 }
+
+img{
+    width: 100%;
+}
+.sns{
+    margin: 3em 0;
+}
+
 @media screen and (max-width: 767.98px){
     .profile-title{
         width: 11.3em;
         margin-right: .5em;
+    }
+    .sns{
+        margin: 1em 0;
     }
 }
