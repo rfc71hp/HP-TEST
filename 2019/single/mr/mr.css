@@ -10,3 +10,13 @@
         margin-right: .5em;
     }
 }
+
+.col-6{
+    height: 50%;
+}
+
+@media (min-width: 768px){
+    .col-md-3 {
+        height: 25%;
+    }
+}
