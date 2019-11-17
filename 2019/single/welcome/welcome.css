@@ -17,6 +17,10 @@ table {
   color: #21b4ca;
 }
 
+.tusHP{
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   table {
     display: none;
