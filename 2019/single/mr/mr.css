@@ -14,3 +14,7 @@
 .col-6{
     height: 50%;
 }
+
+.profile ul li{
+    display: flex;
+}
