@@ -5,7 +5,7 @@
     display: inline-block;
     margin-right: 2em;
     font-weight: bold;
-    color: #b2d8ff;
+    color: #84c1ff;
 }
 .profile ul li{
     display: flex;
@@ -45,6 +45,7 @@ img:last-child{
 
 .sns{
     margin: 3em auto;
+    justify-content: center;
 }
 
 @media screen and (max-width: 767.98px){
@@ -53,12 +54,10 @@ img:last-child{
         margin-right: .5em;
     }
     .sns{
-        margin: 1em 0;
+        margin: 1em auto;        
     }
 }
 @media (min-width: 768px){
     .sns{
-        max-width: 50%;
-        align-items: center;
     }
 }
