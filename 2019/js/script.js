@@ -1,7 +1,7 @@
 //スムーススクロール
 
-$(function() {
-  $('nav a[href^="#"]').click(function() {
+$(function () {
+  $('nav a[href^="#"]').click(function () {
     var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? "html" : href);
@@ -11,8 +11,8 @@ $(function() {
   });
 });
 
-$(function() {
-  $('a[href^="#"]').click(function() {
+$(function () {
+  $('a[href^="#"]').click(function () {
     var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? "html" : href);
@@ -24,8 +24,8 @@ $(function() {
 
 /***************** MENU ******************/
 
-$(function() {
-  $(".navbar-toggle").click(function() {
+$(function () {
+  $(".navbar-toggle").click(function () {
     $("#gnavi").slideToggle(200);
     $(".icon-bar").toggleClass("closeup");
     return false;
@@ -34,8 +34,8 @@ $(function() {
 
 //スマホのメニューをタップしたら閉じる
 
-$(document).ready(function() {
-  $(".navbar-nav li a").click(function(event) {
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function (event) {
     $(".navbar-collapse").removeClass("show");
   });
 });
