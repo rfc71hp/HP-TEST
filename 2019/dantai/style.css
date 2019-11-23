@@ -104,7 +104,7 @@ margin-top: 3rem;
     }
 .borderLayer{
     border: double thick;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 .collapsed{
     color: #3c763d;
@@ -120,4 +120,15 @@ margin-top: 3rem;
     filter:alpha(opacity=80);
     -ms-filter: "alpha( opacity=80 )";
     
+}
+
+.blogpost table,.blogpost th,.blogpost td{
+    border: 1px solid #8a6d3b;
+    border-collapse: collapse;
+    padding: .5em;
+}
+
+.fw-b{
+    font-weight: bold;
+    text-decoration: underline;
 }
